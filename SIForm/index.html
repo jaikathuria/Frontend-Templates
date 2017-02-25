@@ -8,11 +8,15 @@
 	</head>
 	<body>
     <section>
-      <form>
-        <label for="q">Single question you want to ask ?</label>
-        <input id="q" name="q" type="text"/>
-        <input type="submit" value="Submit">
-      </form>
+        <form id="theForm" class="siform" autocomplete="off">
+                <ol class="question">
+					           <li class="current">
+				                <span><label for="q">Single question you want to ask ?</label></span>
+                        <input id="q" name="q" type="text"/>
+                    </li>
+                </ol>
+                <p><input type="submit" value="Submit" class="btn"> </p>
+        </form>
     </section>
 	</body>
 </html>
