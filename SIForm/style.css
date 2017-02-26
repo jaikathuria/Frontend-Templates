@@ -124,3 +124,23 @@ section {
 input[type=text]::-ms-clear {
     display: none;
 }
+
+/* Adjust form for smaller screens */
+
+@media screen and (max-width: 44.75em) {
+	.siform {
+		font-size: 1.8em;
+	}
+
+  .btn {
+    font-size: 15px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 33.5625em) {
+	.siform {
+		font-size: 1.2em;
+    height: 40px;
+	}
+}
